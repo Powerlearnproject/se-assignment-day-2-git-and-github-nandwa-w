@@ -7,12 +7,12 @@ Version control is a system that records changes to a file or set of files over 
 ## Describe the process of setting up a new repository on GitHub. What are the key steps involved, and what are some of the important decisions you need to make during this process?
 To set up a new repository on GitHub:
 
-Sign in to GitHub.
-Click the "+" icon in the top right corner and select "New repository".
-Enter a repository name and description.
-Choose between public or private visibility.
-Initialize the repository with a README file, .gitignore file, and a license if needed.
-Click "Create repository".
+1. Sign in to GitHub.
+2. Click the "+" icon in the top right corner and select "New repository".
+3. Enter a repository name and description.
+4. Choose between public or private visibility.
+5. Initialize the repository with a README file, .gitignore file, and a license if needed.
+6. Click "Create repository".
 Important decisions include the repository name, visibility (public or private), and whether to initialize with a README, .gitignore, and license.
 
 
@@ -47,16 +47,16 @@ Requires a paid plan for more private repositories
 ## Detail the steps involved in making your first commit to a GitHub repository. What are commits, and how do they help in tracking changes and managing different versions of your project?
 Steps to make your first commit:
 
-Clone the repository to your local machine.
-git clone <repository-url>
-Navigate to the repository directory.
+1. Clone the repository to your local machine.
+ git clone <repository-url>
+2. Navigate to the repository directory.
 cd <repository-name>
-Make changes to the files.
-Stage the changes.
-git add .
-Commit the changes with a message.
+3. Make changes to the files.
+4. Stage the changes.
+ git add .
+5. Commit the changes with a message.
 git commit -m "Initial commit"
-Push the changes to the remote repository.
+6. Push the changes to the remote repository.
 git push origin main
 
 Commits are snapshots of your project at a specific point in time. They help track changes and manage different versions by recording what changes were made, who made them, and when.
